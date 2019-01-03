@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="02.png" rel="shortcut icon">
+	<meta charset="UTF-8">
+	<title>website Resmi Pemerintahan Kabupaten Bangli</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="stylee.css">
+</head>
+<body>
+	
+
+<div class="container">
+	
+	<div class="header">
+<!-- 		<h1>website Resmi Pemerintahan Kabupaten Bangli</h1> -->
+			<img src="01.png" width="400" height="120" alt="head" class="logo">
+	</div> <!--/ .header -->
+	<div class="menu">
+		<ul>
+			<li><a href="index.html">Beranda</a></li>
+			<li><a href="profil.html">Profil</a></li>
+			<li><a href="destinasi.html">Destinasi</a></li>
+			<li><a href="informasi.html">Informasi</a></li>
+			<li><a href="galeri.html">Galeri</a></li>
+			</ul>
+	</div>
+<p></p>
+ 	<div class="slideshow-container">
+	<div class="mySlides fade">
+<!--  	 <div class="numbertext">1 / 3</div> -->
+ 	<img src="D1.jpg" style="width:100%">
+<!--  	<div class="text">Caption Text</div> -->
+	</div><div class="mySlides fade">
+<!--   <div class="numbertext">2 / 3</div> -->
+  	<img src="D2.jpg" style="width:100%">
+<!--   	<div class="text">Caption Two</div> -->
+	</div>
+ 	<div class="mySlides fade">
+<!--   <div class="numbertext">3 / 3</div> -->
+  	<img src="D1.jpg" style="width:100%">
+<!--   	<div class="text">Caption Three</div> -->
+	</div>
+	</div>
+	<br>
+	<div style="text-align:center">
+	 <span class="dot"></span> 
+	 <span class="dot"></span> 
+	 <span class="dot"></span> 
+	</div>
+ 	<script>
+	var slideIndex = 0;
+	showSlides();
+ 	function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); // Change image every 5 seconds
+	}
+	</script>
+
+	<div class="main">
+
+		<div class="middle">
+			<h3>"Objek Wisata Spiritual " Pura Tirta Sudamala "</h3>
+			<p><img src="D3.jpg" alt=""></p>
+			<p>Kalimantan atau juga disebut Borneo pada jaman kolonial, adalah pulau terbesar ketiga di dunia yang terletak di sebelah utara Pulau Jawa dan di sebelah barat Pulau Sulawesi. Pulau Kalimantan dibagi menjadi wilayah Indonesia, Malaysia, dan Brunei.</p>
+
+			<h3>"Berkelana Dan Menikmati Eksotisme Gunung Batur "</h3>
+			<p><img src="D2.jpg" alt=""></p>
+			<p>Sumatera adalah pulau keenam terbesar di dunia yang terletak di Indonesia, dengan luas 473.481 km². Penduduk pulau ini sekitar 57.940.351. Pulau ini dikenal pula dengan nama lain yaitu Pulau Percha, Andalas, atau Suwarnadwipa</p>
+
+			<h3>"Air Terjun Tibumana "</h3>
+			<p><img src="W3.jpg" alt=""></p>
+			<p>Jawa adalah sebuah pulau di Indonesia dan merupakan terluas ke-13 di dunia. Dengan jumlah penduduk sekitar hampir 160 juta, pulau ini berpenduduk terbanyak di dunia dan merupakan salah satu tempat terpadat di dunia.</p>
+			
+		</div> 
+
+		<div class="kanan">
+			<h3>Objek Wisata Gunung Batur di Kintamani Bangli Bali </h3>
+			<div class="destinasi">
+			<p><img src="W2.jpg" alt=""></p></div>
+			<p>Objek Wisata Gunung Batur di Kintamani Bangli Bali merupakan tempat wisata yang harus anda kunjungi karena pesona keindahannya tidak ada duanya. Penduduk lokal daerah Bangli juga sangat ramah tamah terhadap wisatawan lokal maupun wisatawan asing. Kota Bangli juga terkenal akan Objek Wisata Gunung Batur di Kintamani Bangli Bali yang sangat menarik untuk dikunjungi.</p>
+
+			<h3>Objek Wisata Air Terjun Dusun Kuning di Kawan Bangli Bali</h3>
+			<p><img src="W1.jpg" alt=""></p>
+			<p>Objek Wisata Air Terjun Dusun Kuning di Kawan Bangli Bali memiliki pesona keindahan yang sangat menarik untuk dikunjungi. Sangat di sayangkan jika anda berada di kota Bangli tidak mengunjungi Objek Wisata Air Terjun Dusun Kuning di Kawan Bangli Bali yang mempunyai keindahan yang tiada duanya tersebut. </p>
+		</div> <!--/ .right -->
+
+	</div> <!--/ .main -->
+
+		<div class="footer">
+		<p>Copyright &copy; 2018 <a href="testt.html">Wonderful-Indonesia.com</a></p>
+</div>
+
+</body>
+</html>
